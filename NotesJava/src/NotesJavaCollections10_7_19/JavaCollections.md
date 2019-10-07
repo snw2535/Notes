@@ -21,10 +21,12 @@ She asks what a framework is in java despite being the one teaching the class
      - it's optional
 
 ####Collection framework:
-     - It represents a unified architecture for string and manipulating a group of objects
+     - It represents a unified architecture for string and 
+       manipulating a group of objects
 
 ####Iteration framework:
-    - Provides the facility of iterating the elements in a forward direction only
+    - Provides the facility of iterating the elements in a 
+      forward direction only
     - There are three methods
         1) public boolean hasNext()
         2) public object next()
@@ -58,7 +60,8 @@ note to self, add the recording to the notes. Please
     4) List<dataType> list4 = new Stack();
     
 ####ArrayList Class
-    - uses dynamic array to store the duplicate elements of different datatypes
+    - uses dynamic array to store the duplicate elements of 
+      different datatypes
     - maintain the insertion order
     - elements stored can be randomly accessed
 
@@ -72,7 +75,8 @@ note to self, add the recording to the notes. Please
     
 ####Deque Interface
     - we can remove and add the elements from both the sides
-    - Deque stands for a double_ended queue which enables us to perform the operation at both the ends
+    - Deque stands for a double_ended queue which enables us 
+      to perform the operation at both the ends
 
 ####Array Deque
     - implements the Deque interface
@@ -91,7 +95,8 @@ this will be around 43:00 in the audio file
     
 ####Set interface
     - is present in Java.util package
-    - it represents the unordered Set of elements which doesn't allow us to store the duplicate items
+    - it represents the unordered Set of elements which doesn't 
+      allow us to store the duplicate items
     - we can store at most one null value in Set
     
 #####Set is implemented by HashSet, LinkedHashSet and TreeSet
@@ -121,3 +126,15 @@ teaching us the fucking stuff we're supposed to be learning
 ####Java Map Interface
     - contains values on the basis of key and value pairs
     - contains unique keys
+    - is useful if you have to search, update or delete elements 
+      on the basis of a key
+    - doesn't allow duplicate keys but you can have duplicate values
+    - there are two interfaces for implementing maps in java
+        1) Map
+        2) Sorted Map
+    - There are three classes
+        1) HashMap
+        2) LinkedHashMap
+        3) TreeMap
+    - hashmap and LinkedHashMap allow null keys and values,
+      but treemap doesn't allow any null key or values
