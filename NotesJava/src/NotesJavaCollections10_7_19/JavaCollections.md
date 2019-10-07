@@ -138,3 +138,39 @@ teaching us the fucking stuff we're supposed to be learning
         3) TreeMap
     - hashmap and LinkedHashMap allow null keys and values,
       but treemap doesn't allow any null key or values
+      
+####Comparable interface
+    - is used to order the objects of the user defined class
+    - is found in java.lang package
+    - contains only one method name compareTo(object)
+    - it provides a single sorting sequence only, i.e.,  you can
+      sort the elements on the basis of a single data member only
+
+#####public int compareTo(object obj):  it is used to compare the current object with the specified object
+    - positive integers, if the current object is greater than
+      the specificed object
+    - negative integers, if the current object is less than the specified
+      object
+    - zero, if the current object is equal to the specific object
+    
+####comparator interface
+    - is used to order the object of a user_defined class
+    - is found in java.util package
+    - contains 2 methods:
+        1) compare(object obj1, object obj2)
+        2) equals(object element)
+    - it provides multiple sorting sequences
+    
+####Differences between comparable and comparator
+    Comparable:
+        1) Provides a single sorting sequence
+        2) affects the original class
+        3) Provides compareTo() method
+        4) is present in java.lang
+    Comparator:
+        1) Provides multiple sorting sequences
+        2) Doesn't affect the original class
+        3) provides compare() method
+        4) is present in java.util
+        
+##[Important Doc About the Hierarchies](https://cs.rit.edu/~csapx/Lectures/07/collection-hierarchy.pdf)
