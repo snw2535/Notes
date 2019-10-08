@@ -103,12 +103,6 @@ this will be around 43:00 in the audio file
     - Set<dataType> S1 = new HashSet<dataType>();
     - Set<dataType> S2 = new LinkedHashSet<dataType>();
     - Set<dataType> S3 = new TreeSet<dataType>();
-    
-I realize it's her first year but like why did it have to be me,  
-She's such an awful teacher, like seriously she's been writing on the  
-board this whole freaking time and hasn't said anything but: "Any   
-question?" Like yeah of course we have question because you're not  
-teaching us the fucking stuff we're supposed to be learning
 
 ####HashSet
     - it represents the collection that uses a has table for storage
